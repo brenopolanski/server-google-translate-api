@@ -6,7 +6,7 @@
 
 ### Installation
 
-Install [NodeJS](http://nodejs.org/), if you don't have it yet.
+Install [NodeJS](http://nodejs.org/) if you don't have it yet.
 
 ```bash
 # Clone this repository
@@ -55,7 +55,7 @@ See the documentation: https://wedeploy.com/docs/deploy/getting-started/
 
   - *header*: `{ "Content-Type": "application/json" }`
 
-  - *body*:   `{ "text": "I speak English", "from": "en", to: "pt" }`
+  - *body*: `{ "text": "I speak English", "from": "en", to: "pt" }`
 
 ## Contributing
 
