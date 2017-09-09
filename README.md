@@ -23,19 +23,19 @@ $ yarn start (or npm start)
 
 #### WeDeploy Button
 
-Use the button below to instantly setup your own Server google-translate-api instance on WeDeploy.
+Use the button below to instantly setup your own Server [google-translate-api](https://github.com/matheuss/google-translate-api) instance on WeDeploy.
 
 [![Deploy](https://avatars3.githubusercontent.com/u/10002920?v=4&s=80)](https://wedeploy.com/docs/intro/using-the-console/)
 
 #### WeDeploy manually
 
-1. Download the CLI
+1. Download the CLI:
 
    ```
    curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | bash
    ```
 
-2. Deploy Instantly
+2. Deploy Instantly:
 
    ```
    we deploy
@@ -51,7 +51,7 @@ See the documentation: https://wedeploy.com/docs/deploy/getting-started/
 
 ## Endpoint
 
-- [POST] /translate { text, translateFrom, translateTo }
+- **[POST]** `/translate { text, translateFrom, translateTo }`
 
 ## Contributing
 
