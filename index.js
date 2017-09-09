@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   <pre>
     Welcome to the Server Google Translate API!
 
-    The following endpoints are available:
+    The following endpoint is available:
 
     POST /translate { text, translateFrom, translateTo }
   </pre>

@@ -6,10 +6,7 @@
 
 ### Installation
 
-First of all, install the dependencies to run this boilerplate.
-
-- [NodeJS](http://nodejs.org/)
-- [GulpJS](http://gulpjs.com/)
+Install [NodeJS](http://nodejs.org/), if you don't have it yet.
 
 ```bash
 # Clone this repository
@@ -51,6 +48,10 @@ Use the button below to instantly setup your own Server google-translate-api ins
    ```
 
 See the documentation: https://wedeploy.com/docs/deploy/getting-started/
+
+## Endpoint
+
+- [POST] /translate { text, translateFrom, translateTo }
 
 ## Contributing
 
