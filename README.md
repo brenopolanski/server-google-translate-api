@@ -51,7 +51,10 @@ See the documentation: https://wedeploy.com/docs/deploy/getting-started/
 
 ## Endpoint
 
-- **[POST]** `/translate { text, translateFrom, translateTo }`
+- **[POST]** `/translate { text, from, to }`
+
+  - **Header:** `{ "Content-Type": "application/json" }`
+  - **Body**: `{ "text": "I speak English", "from": "en", to: "pt" }`
 
 ## Contributing
 

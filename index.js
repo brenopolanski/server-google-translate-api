@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
     The following endpoint is available:
 
-    POST /translate { text, translateFrom, translateTo }
+    POST /translate { text, from, to }
   </pre>
   `
 
@@ -26,26 +26,19 @@ app.get('/', (req, res) => {
 });
 
 app.post('/translate', (req, res) => {
-  const { text, translateFrom, translateTo } = req.body;
-  const options = {
-    from: translateFrom || 'en', // optional
-    to: translateTo
-  };
+  const { text, from, to } = req.body;
 
-  if (text) {
-    translate(text, options).then(data => {
+  if (text && to) {
+    translate(text, { from, to }).then(data => {
       res.send({ 'text': data.text });
-    }).catch(err => {
-      console.error(err);
-
-      res.status(500).send({
-        error: err
-      });
+    }).catch(error => {
+      console.error(error);
+      res.status(500).send(error);
     });
   }
   else {
     res.status(403).send({
-      error: 'Please provide a text and translateTo in the request body'
+      error: 'Please provide a "text" and "to" in the request body'
     });
   }
 });
