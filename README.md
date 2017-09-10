@@ -70,12 +70,6 @@ For detailed changelog, see [Releases](https://github.com/brenopolanski/server-g
 - [google-translate-api](https://github.com/matheuss/google-translate-api)
 - [WeDeploy](https://wedeploy.com/)
 
-## Donations
-
-Donations would be more than welcome :)
-
-[![donate-paypal](https://raw.githubusercontent.com/brenopolanski/phaser-es6-starter/gh-assets/btn_donate_paypal.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WNXA4YYGQCJZG)
-
 ## License
 
 [MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
