@@ -21,6 +21,8 @@ $ yarn start (or npm start)
 
 ### Deploy on WeDeploy
 
+> :warning: WeDeploy platform has been shut down on April 22nd, 2019. Read this post to learn more about it: https://wedeploy.com/blog/discontinuing-wedeploy/
+
 #### WeDeploy Button
 
 Use the button below to instantly setup your own Server [google-translate-api](https://github.com/matheuss/google-translate-api) instance on WeDeploy.
