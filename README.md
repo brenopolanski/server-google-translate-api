@@ -57,7 +57,7 @@ See the documentation: https://wedeploy.com/docs/deploy/getting-started/
 
   - *header*: `{ "Content-Type": "application/json" }`
 
-  - *body*: `{ "text": "I speak English", "from": "en", to: "pt" }`
+  - *body*: `{ "text": "I speak English", "from": "en", "to": "pt" }`
 
 ## Contributing
 
