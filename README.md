@@ -51,6 +51,15 @@ Use the button below to instantly setup your own Server [google-translate-api](h
 
 See the documentation: https://wedeploy.com/docs/deploy/getting-started/
 
+### How to use the `Dockerfile` :whale:
+
+You can then build and run the Docker image:
+
+```sh
+$ docker build -t server-google-translate-api .
+$ docker run -d server-google-translate-api
+```
+
 ## Endpoint
 
 - **[POST]** `/translate`
