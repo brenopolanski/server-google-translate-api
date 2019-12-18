@@ -19,38 +19,6 @@ $ yarn (or npm i)
 $ yarn start (or npm start)
 ```
 
-### Deploy on WeDeploy
-
-> :warning: WeDeploy platform has been shut down on April 22nd, 2019. Read this post to learn more about it: https://wedeploy.com/blog/discontinuing-wedeploy/
-
-#### WeDeploy Button
-
-Use the button below to instantly setup your own Server [google-translate-api](https://github.com/matheuss/google-translate-api) instance on WeDeploy.
-
-[![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/brenopolanski/server-google-translate-api)
-
-#### WeDeploy manually
-
-1. Download the CLI:
-
-   ```
-   curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | bash
-   ```
-
-2. Deploy Instantly:
-
-   ```
-   we deploy
-   ```
-
-3. Notice that this command will create a random name for your project. If you want to specify a new name or choose an existing project, you just need to run:
-
-   ```
-   we deploy -p myproject
-   ```
-
-See the documentation: https://wedeploy.com/docs/deploy/getting-started/
-
 ### How to use the `Dockerfile` :whale:
 
 You can then build and run the Docker image:
@@ -79,7 +47,6 @@ For detailed changelog, see [Releases](https://github.com/brenopolanski/server-g
 ## Credits
 
 - [google-translate-api](https://github.com/matheuss/google-translate-api)
-- [WeDeploy](https://wedeploy.com/)
 
 ## License
 

@@ -4,10 +4,6 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const translate = require('google-translate-api');
 const app = express();
-
-// WeDeploy platform has been shut down on April 22nd, 2019.
-// const port = require('./wedeploy').port;
-
 const port = 3000;
 
 app.use(cors());
