@@ -50,4 +50,4 @@ For detailed changelog, see [Releases](https://github.com/brenopolanski/server-g
 
 ## License
 
-[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
+[MIT License](https://brenopolanski.mit-license.org/) © Breno Polanski
